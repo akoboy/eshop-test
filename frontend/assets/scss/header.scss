@@ -1,0 +1,18 @@
+.header {
+    border-bottom: 3px solid $main-color;
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 22px;
+    }
+
+    &__major {
+        flex: 1 0 auto;
+    }
+
+    &__minor {
+        flex: 0 0 auto;
+    }
+}

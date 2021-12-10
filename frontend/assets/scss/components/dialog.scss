@@ -1,0 +1,32 @@
+.dialog-wrapper {
+    display: flex;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.dialog-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #ddd;
+    opacity: 0.3;
+}
+
+.dialog-success {
+    display: flex;
+    position: relative;
+    flex: 1 1 auto;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 30px 20px;
+    justify-content: center;
+    text-align: center;
+}

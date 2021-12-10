@@ -1,0 +1,5 @@
+version: '3.4'
+
+services:
+  frontend:
+    command: bash -c "npm install --no-save && npm run dev"

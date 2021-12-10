@@ -1,0 +1,32 @@
+.cart-item {
+
+    &__inner {
+        display: flex;
+    }
+    &__title {
+        font-size: 16px;
+    }
+    &__major {
+        flex: 1 0 auto;
+    }
+    &__minor {
+        flex: 0 0 auto;
+    }
+    &__price {
+        text-align: right;
+    }
+    &__action {
+        margin-top: 8px;
+    }
+}
+
+.cart-summary {
+    border: 2px solid var(---main-color);
+    padding: 20px;
+    text-align: center;
+
+    &__action {
+        margin-top: 15px;
+    }
+}
+
